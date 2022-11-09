@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 769px){
   .container{
-    width: 80vw;
+    width: 100vw;
   }
 
   .row{
@@ -18,9 +18,6 @@
     width: 100%;
   }
 
-  .row{
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 480px){
@@ -39,7 +36,7 @@
   .lessons .col,
   .steps .col,
   .why-us .col{
-    width: 80vw;
+    width: 100vw;
   }
 
   .steps{
