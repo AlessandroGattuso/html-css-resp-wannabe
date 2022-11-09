@@ -1,16 +1,21 @@
 
 /*bonus*/
-@media screen and (min-width: 769px){
+
+@media screen and (max-width: 1160px){
   .container{
     width: 100vw;
   }
+  .steps .row{
+    justify-content: center;
+    row-gap: 40px;
+    flex-wrap: wrap;
+  }
 
-  .row{
-    width: 100%;
+  .steps .col{
+    width: calc(100%/2);
   }
 }
 /*<----->*/
-
 @media screen and (max-width: 768px){
 
   .container{
